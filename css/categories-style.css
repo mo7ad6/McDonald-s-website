@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "Lovin Sans";
+    src: url("../font/lovin-font/lovin-bold.otf");
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "Lovin Sans";
+    src: url("../font/lovin-font/lovin-medium.otf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Lovin Sans";
+    src: url("../font/lovin-font/lovin-light.otf");
+    font-weight: 100;
+}
+
+
+body{
+    background-color: #ebebeb36;
+    font-family: "Lovin Sans", Helvetica, sans-serif;
+}
+
+
+.menu{
+    height: auto;
+}
+
+.menu #cards{
+    height: 100%;
+}
+
+.menu #cards #card {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu #cards #card .card-content{
+    text-align: center;
+    height: auto;
+    width: 100%;
+    max-width: 550px;
+    box-shadow: .5px .5px 3px;
+    border-radius: 30px;
+    background-color: #f0f0f0d8;
+}
+
+.menu #cards #card .card-img{
+    width: 300px;
+    height: auto;
+    border-radius: 30px;
+}
+
+.menu #cards #card .card-content .card-body{
+    padding: 10px;
+    background-color: #ffffff;
+    border-bottom-left-radius:30px ;
+    border-bottom-right-radius:  30px;
+    height: 100px;
+    text-align: left;
+}
+
+
+.menu #cards #card .card-content .card-title{
+    margin-top: 5px;
+    font-weight: 800;
+}
+
+.menu #cards #card .card-content h6{
+    font-weight: 200;
+    margin-top: 10px;
+}
+
+
+@media (max-width: 991px){
+    .menu #cards #card{
+        height: 350px;
+}
+    .menu #cards #card .card-img{
+    width: 200px;
+}
+}
+
+
